@@ -5,6 +5,7 @@ const app = express();
 const hbs = require("hbs");
 const geocode = require("./utils/geocode.js");
 const forecast = require("./utils/forecast.js");
+const port = process.env.PORT || 3000;
 
 //Static resources and view resources path
 const staticPath = path.join(__dirname, "../public");
@@ -98,6 +99,6 @@ app.get("*", (req, res) => {
 });
 
 //Server listening on the port 3000
-app.listen(3000, () => {
-  console.log("The server is up on port 3000");
+app.listen(port, () => {
+  console.log(`The server is up on port ${port}`);
 });

@@ -39,7 +39,7 @@ form.addEventListener("submit", (e) => {
   }
 
   //Making a fetch request to the weatherstack and geolocation api using weather route
-  const url = `http://localhost:3000/weather?address=${query}&units=${unitVal}`;
+  const url = `/weather?address=${query}&units=${unitVal}`;
 
   fetch(url).then((response) => {
     response.json().then((data) => {
