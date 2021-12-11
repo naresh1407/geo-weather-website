@@ -11,7 +11,6 @@
 * The /weather route forwards the request recieved to the geolocation API.
 * The geolocation API accepts the input address and transforms into location coordinates. 
 * The coordinates are then processed by the weatherstack API to return the data. 
-* 
 
 ## Technologies used: 
   * HTML
