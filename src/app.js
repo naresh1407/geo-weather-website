@@ -25,7 +25,7 @@ app.use(express.static(staticPath));
 // Index page route
 app.get("", (req, res) => {
   res.render("index", {
-    title: "Weather",
+    title: "Geo Weather",
     name: "Naresh Kumar Makwana",
   });
 });
