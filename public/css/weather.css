@@ -1,0 +1,47 @@
+/* Search Headers */
+input {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid lightgray;
+  line-height: 1.6;
+}
+
+button,
+select {
+  padding: 0.5rem 0.5rem;
+  background-color: gray;
+  color: #f8f4f9;
+  border: 1px solid gray;
+  border-radius: 0.1rem;
+  margin-right: 1rem;
+  line-height: 1.6;
+}
+
+/* Information styling */
+#info-box {
+  padding: 0rem 5rem;
+  margin: 0rem 7rem;
+}
+
+.info-item {
+  padding: 0.1rem 1rem;
+  margin: 0.3rem;
+  color: #171219;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.4rem;
+}
+
+.info-item:first-of-type {
+  margin-bottom: 2rem;
+  height: 20vh;
+  font-size: 2rem;
+}
+
+.info-item:first-of-type span {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  width: 100%;
+  height: 18vh;
+}

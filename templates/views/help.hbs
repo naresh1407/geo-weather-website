@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help</title>
+    <link rel="icon" href="/img/weather-icon.png">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/help.css" />
+  </head>
+  <body>
+    <div class="container">
+      {{>header}}
+      
+      <div id="help-container">
+        <div class="help-para">
+          <h2>How to get the weather forecast? </h2> <hr>
+          <p class="help-item">&#9675; Enter the location you wish to search.</p>
+          <p class="help-item">&#9675; Choose the system of measurement you wish.</p>
+          <p class="help-item">&#9675; Click on the search button.</span>
+      </div>
+
+      <div class="help-para">
+          <h2>Why am I not getting a forecast?</h2> <hr>
+          <p class="help-item">&#9675; Kindly check if the location is null.</p>
+          <p class="help-item">&#9675; Ensure if the place was spelt correctly.</p>
+          <p class="help-item">&#9675; Please choose a valid system of measurement. By default, the metric system is choosen.</span>
+      </div>
+
+      <div class="help-para">
+          <h2>Other issues</h2> <hr>
+          <p class="help-item">&#9675; Kindly check if you have a stable internet connection.</p>
+          <p class="help-item">&#9675; The website uses weatherstack and geolocation api to fetch data. They might have been bogged down.</p>
+          <p class="help-item">&#9675; The maximum monthly/yearly limit of apis used might have been exhausted.</span>
+      </div>
+
+      </div>
+    </div>
+    {{>footer}}
+  </body>
+</html>
