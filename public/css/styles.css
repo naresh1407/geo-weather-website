@@ -39,7 +39,7 @@ span {
   text-align: center;
   display: inline-flex;
   width: 32.5%;
-  height: 5.5rem;
+  height: 10vh;
   padding: 1rem;
   justify-content: center;
   align-items: center;
@@ -58,21 +58,16 @@ header {
   color: #1e96fc;
 }
 
-header img {
-  margin-top: 2rem;
-  margin-right: 1rem;
-  width: 10rem;
-}
-
 #logo-heading {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 header a {
   color: #f8f4f9;
   text-decoration: none;
-  margin: 1rem 3rem;
+  margin: 1rem auto;
   padding: 0.5 rem;
 }
 

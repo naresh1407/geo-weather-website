@@ -1,12 +1,11 @@
 /* Help Section */
 
 #help-container {
-  width: 97vw;
   font-size: 1.5rem;
   font-weight: 400;
   background-color: white;
-  margin: 1rem auto;
-  padding: 0.5rem 2rem;
+  margin: 1rem;
+  padding: 0.5rem auto;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   display: flex;
   flex-direction: column;
@@ -22,9 +21,9 @@
   width: 90vw;
   background-color: white;
   margin: 1rem auto;
-  padding: 2rem 2rem;
-  word-spacing: 0.1rem;
+  padding: 2rem 1rem;
   text-align: left;
+  word-spacing: 0.1rem;
   border-radius: 0.1rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);

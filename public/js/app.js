@@ -59,7 +59,7 @@ form.addEventListener("submit", (e) => {
         <div class = "info-item" id="weather-image">
           <span>
             <img src="${fdata.weather_icon}" alt="image not found" />
-            The forecast is ${fdata.weatherDescription}, with current temperature at ${fdata.temperature} ${tempUnit}. <br>
+            The forecast is ${fdata.weatherDescription}, with current temperature at ${fdata.temperature} ${tempUnit}.
             The wind is blowing at ${fdata.wind_speed} ${windSpeedUnit}.
           </span>
         </div>`;
